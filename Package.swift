@@ -24,7 +24,8 @@ let package = Package(
   defaultLocalization: "en",
   platforms: [
     .macOS(.v10_15),
-    .iOS(.v9)
+    .iOS(.v9),
+    .watchOS(.v6)
   ],
   products: [
     .library(
