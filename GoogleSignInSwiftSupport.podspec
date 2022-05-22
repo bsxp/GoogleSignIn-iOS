@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   s.license = { :type => 'Apache', :file => 'LICENSE' }
   s.authors = 'Google LLC'
   s.source = {
-    :git => 'https://github.com/google/GoogleSignIn-iOS.git',
+    :git => 'https://github.com/bsxp/GoogleSignIn-iOS.git',
     :tag => s.version.to_s
   }
   ios_deployment_target = '13.0'
-  macos_deployment_target = '10.15' 
+  macos_deployment_target = '10.15'
   s.ios.deployment_target = ios_deployment_target
   s.osx.deployment_target = macos_deployment_target
   s.module_name = 'GoogleSignInSwift'
